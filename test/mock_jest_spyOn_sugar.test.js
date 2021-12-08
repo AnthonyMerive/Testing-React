@@ -4,7 +4,7 @@ import * as math from '../src/math'
 //como hicimos anteriormente vamos a aplicar mock con SpyOn 
 test("calls math.add", () => {
 
-  // almacenamos en la varible originalAdd la implementacion Add
+  // almacenamos en la varible originalAdd la implementacion de math "Add"
   const originalAdd = math.add;
 
   // mockeamos con la implementacion original tal como lo anteriormente visto
